@@ -9,18 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack{
+        ZStack {
             Image("background")
-            VStack{
+            VStack {
                 Text("Hello my name is Hessa")
                     .font(.largeTitle)
-                padding()
+                    .padding()
                 Text("I am 23 years old")
-                padding()
+                    .padding()
                 Text("I am learning swiftUI now")
-                padding()
-                padding()
-                HStack{
+                    .padding()
+                HStack {
                     Image(systemName: "heart.fill")
                     Image(systemName: "gear")
                     Image(systemName: "trash.fill")
